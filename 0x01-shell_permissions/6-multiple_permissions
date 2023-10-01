@@ -1,8 +1,2 @@
 #!/bin/bash
-chmod u+x,g+x hello
-chmod o+r hello
-if [ $? -eq 0 ]; then
-  echo "Permissions modified successfully for 'hello'."
-else
-  echo "Failed to modify permissions for 'hello'."
-fi
+chmod u+x,g+x,o+r hello

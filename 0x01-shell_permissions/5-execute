@@ -1,7 +1,2 @@
 #!/bin/bash
 chmod +x hello
-if [ $? -eq 0 ]; then
-  echo "Execute permission for the owner of 'hello' has been added."
-else
-  echo "Failed to add execute permission to the owner of 'hello'."
-fi

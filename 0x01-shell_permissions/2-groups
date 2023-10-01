@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Groups for the current user: $(groups)"
+$(groups)

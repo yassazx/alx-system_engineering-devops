@@ -1,0 +1,7 @@
+#!/bin/bash
+chown betty hello
+if [ $? -eq 0 ]; then
+  echo "Ownership of 'hello' has been changed to 'betty'."
+else
+  echo "Failed to change ownership of 'hello' to 'betty'."
+fi

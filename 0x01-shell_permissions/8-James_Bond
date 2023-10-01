@@ -1,0 +1,8 @@
+#!/bin/bash
+permissions="007"
+chmod u=${permissions:0:1},g=${permissions:1:1},o=${permissions:2:1} hello
+if [ $? -eq 0 ]; then
+  echo "Permissions set as specified for 'hello'."
+else
+  echo "Failed to modify permissions for 'hello'."
+fi

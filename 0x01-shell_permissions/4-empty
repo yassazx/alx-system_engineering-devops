@@ -1,0 +1,7 @@
+#!/bin/bash
+touch hello
+if [ $? -eq 0 ]; then
+  echo "Empty file 'hello' has been created."
+else
+  echo "Failed to create an empty file 'hello'."
+fi

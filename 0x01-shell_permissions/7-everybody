@@ -1,0 +1,8 @@
+#!/bin/bash
+permissions="777"
+chmod u=rwx,g=rwx,o=rwx hello
+if [ $? -eq 0 ]; then
+  echo "Execute permission added for the owner, group owner, and other users to 'hello'."
+else
+  echo "Failed to modify permissions for 'hello'."
+fi

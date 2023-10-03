@@ -1,0 +1,3 @@
+#!/bin/bash
+shopt -s nullglob; for file in [[:upper:]]*; do mv "$file" /tmp/u/; done
+case 

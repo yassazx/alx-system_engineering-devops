@@ -3,10 +3,9 @@
 
 counter=0
 
-# Execute loop while counter is less than 10
+
 while [ $counter -lt 10 ]
 do
     echo "Best School"
-    # Increment counter
     ((counter++))
 done

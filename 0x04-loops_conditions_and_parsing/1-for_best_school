@@ -1,5 +1,5 @@
 #!/bin/bash
-# Use a for loop to iterate 10 times
+# This is a comment
 
 for ((i=0; i<10; i++))
 do

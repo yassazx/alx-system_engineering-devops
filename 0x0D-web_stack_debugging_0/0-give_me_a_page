@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-
-# Try creating the index.html file in a common document root location
-echo "Hello Holberton" > /var/www/html/index.html
-
-# If the previous command fails, create the file in a more generic location (fallback)
-if [ $? -ne 0 ]; then
-  echo "Hello Holberton" > /usr/share/nginx/html/index.html  # Assuming Nginx might also be used
-fi
+# Run Apache on the 265-0 Docker container.
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start

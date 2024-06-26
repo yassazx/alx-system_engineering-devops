@@ -1,4 +1,4 @@
-#Checkout Catastrophe: When Recommendations Turned Ice Cold (But Thankfully Didn't Last!)
+# Checkout Catastrophe: When Recommendations Turned Ice Cold (But Thankfully Didn't Last!)
 Ever experience that moment when you're about to score an amazing deal online, but checkout turns into a molasses-slow slog? Yeah, us too. That's exactly what happened on June 25th for about an hour (don't worry, it's fixed now!).
 Imagine this: you've snagged the perfect pair of sunglasses (because, summer!), and you're practically poolside in your mind. But then, checkout hits you with the speed of a sloth on vacation. Not exactly the beachy vibe you were going for, right?
 The Incident in a Not-So-Serious Nutshell:
